@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
@@ -18,12 +18,18 @@ h1 {
     text-align: center;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
 .form-group {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 15px;
 }
 
 label {
-    display: block;
     margin-bottom: 5px;
 }
 
@@ -31,20 +37,19 @@ input[type="text"],
 input[type="email"],
 input[type="password"],
 select {
-    width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
 button {
-    width: 100%;
     padding: 10px;
     background-color: #5cb85c;
     border: none;
     color: white;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 button:hover {
